@@ -1,3 +1,5 @@
+CREATE EXTENSION pgcrypto;
+
 -- modyfikacja przy szyfrowaniu peselu
 ALTER TABLE patients DROP COLUMN pesel;
 
