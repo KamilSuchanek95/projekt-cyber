@@ -1,5 +1,5 @@
 -- Database: cwmbd_project
-
+CREATE EXTENSION pgcrypto;
 -- add sample data
 /*
 INSERT INTO patients
