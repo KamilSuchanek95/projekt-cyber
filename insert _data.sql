@@ -238,11 +238,11 @@ GzM=
 -----END PGP PUBLIC KEY BLOCK-----
 ')) AS notes
 FROM (VALUES 
-('Kamil','Suchenek','BĹ‚awatkowa 9/13','Gliwice','43898765672','467598762','---'),
-('Dominika','GabĂłr','NakĹ‚o ĹšlÄ…skie Morcinka 9','Tarnowskie GĂłry','87654678926','765398267','al.tetracykliny'),
-('Agnieszka','Rudziun','Tarnogorska 8 Stare Tarnowice','OĹ›wiÄ™cim','67489356728','654329873','-'),
-('Natalia','Matuszek','SĹ‚oneczna 5 Krupski MĹ‚yn','Lubliniec','78754378961','876539846','agorafobia'),
-('Marcin','Kasprzyk','Celiny 8 TÄ…pkowice','Ruda ĹšlÄ…ska','87546783218','987654323','po odwyku') )
+('Kamil','Suchenek','Bławatkowa 9/13','Gliwice','43898765672','467598762','---'),
+('Dominika','Gabór','Nakło Śląskie Morcinka 9','Tarnowskie Góry','87654678926','765398267','al.tetracykliny'),
+('Agnieszka','Rudziun','Tarnogorska 8 Stare Tarnowice','Oświęcim','67489356728','654329873','-'),
+('Natalia','Matuszek','Słoneczna 5 Krupski Młyn','Lubliniec','78754378961','876539846','agorafobia'),
+('Marcin','Kasprzyk','Celiny 8 Tąpkowice','Ruda Śląska','87546783218','987654323','po odwyku') )
 AS pat(fn,ln,ad,bi,pe,ph,no); /*CROSS JOIN 
 (SELECT dearmor('-----BEGIN PGP PUBLIC KEY BLOCK-----
 
