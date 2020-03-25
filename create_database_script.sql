@@ -14,15 +14,14 @@ CREATE DATABASE cwmbd_project
 
 CREATE TABLE patients(
 	patient_id SERIAL PRIMARY KEY,
-	first_name VARCHAR,
-	last_name VARCHAR,
-	address VARCHAR,
-	birth_place VARCHAR,
-	pesel VARCHAR UNIQUE,
-	phone_number VARCHAR,
-	notes VARCHAR);
---ALTER TABLE patients
---ALTER COLUMN address TYPE VARCHAR(100)
+	first_name bytea,
+	last_name bytea,
+	address bytea,
+	birth_place bytea,
+	pesel bytea UNIQUE,
+	phone_number bytea,
+	notes bytea);
+
 CREATE TABLE drugs(
 	drug_id SERIAL PRIMARY KEY,
 	drug_name VARCHAR(20));
